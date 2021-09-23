@@ -14,7 +14,7 @@ import numpy as np
 from PIL import Image
 
 
-import plotly.graph_objects as go
+
 import  matplotlib.pyplot as plt
 import seaborn as sns
 
