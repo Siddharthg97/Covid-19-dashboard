@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-from plotly.subplots import make_subplots
+
 import plotly.graph_objects as go
 import  matplotlib.pyplot as plt
 import seaborn as sns
