@@ -15,7 +15,7 @@ from PIL import Image
 
 
 
-import seaborn as sns
+
 
 
 st.title("Exploratory Data Analysis on COVID-19")
