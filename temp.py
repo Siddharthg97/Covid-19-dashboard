@@ -26,7 +26,7 @@ The responses involve Severity,Hospitalzation and Support Type.There are eleven
 predictors - Age,Sex,Cormorbidity(Y/N),Comorbidity Type,Duration of Comorbidity,
 RTPCR Positive, Vaccination Status, ALT, CRP, LDH, D-Dimer
 """
-from tabulate import tabulate
+
 st.header(" Categories of Categorical Variables")
 table= pd.DataFrame([['Sex', 'Comorbdity (Y/N)', 'Vaccination Status','RTPCR Positive ','D-Dimer','ALT','CRP','LDH','Severity','Hospitalization Reqd','Support Type'], ['1- Male', '1-Yes', '1-No Dose','0-Yes','1-Normal','1-Normal','1-Normal','1-Normal','1-Low','1-No','1-Normal'], ['2-Female', '2-No', '2-One Dose','1-No','2-Positive','2-Mild','2-Mild','2-Mild','2-Moderate','2-Yes','2-Oxygen support'], ['', '', '3-Two Dose','','','3-High','3-High','3-High','3-High','','3-Critical Support']])
 st.table(table)
